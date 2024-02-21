@@ -71,8 +71,8 @@ class Bug {
     this.speed = random(1, 3);
     this.angle = random(TWO_PI);
     this.frameIndex = 0; // Index of the current frame in the sprite
-    this.frameWidth = 80; // Width of each frame in the sprite
-    this.frameHeight = 50; // Height of the sprite
+    this.frameWidth = 100; // Width of each frame in the sprite
+    this.frameHeight = 80; // Height of the sprite
     this.totalFrames = 3; // Total number of frames in the sprite
     this.lastFrameChange = millis(); // Time when the frame was last changed
     this.frameDuration = 100; // Duration (in milliseconds) for each frame
